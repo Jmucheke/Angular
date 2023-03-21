@@ -1,0 +1,6 @@
+<h2>All Parcels</h2>
+<div class="container">
+
+  <app-one-user *ngFor="let parcel of customerServiceService.parcels; let i = index" [index]="i" [parcel]="parcel"></app-one-user>
+  
+</div>

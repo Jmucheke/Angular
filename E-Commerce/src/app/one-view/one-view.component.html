@@ -1,0 +1,12 @@
+
+<h2>One Parcel</h2>
+<div class="container">
+  <div class="content" *ngIf="(parcel$|async) as parcel">
+    <p>{{parcel.name}}</p>
+    <p>{{parcel.email}}</p>
+    <p>{{parcel.destination}}</p>
+    <p>{{parcel.description}}</p>
+  </div>
+
+</div>
+
